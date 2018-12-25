@@ -1,15 +1,23 @@
+---
+layout:     post
+date:       2018-12-25
+author:     penny
+catalog: true
+tags:
+    - 算法
+---
+
 # 4.123 查找问题
+
 - 查找有无： set
 - 查找对应关系:  map, hash表
 - set,map叫做 容器类
 
 <figure>
 
-<a><img src="/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/1532055197(1).png"></a>
 
 </figure>
-
-![image](assets/1532055197(1).png)
 
 常见操作：
 - insert
@@ -26,21 +34,17 @@ e.g. nums1=[1,2,2,1],nums2=[2,2]. ans = [2]
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard.png"></a>
 
 </figure>
-
-![image](assets/clipboard.png)
 
 - 利用语言本身提供的接口，一次性插入
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350704118.png"></a>
 
 </figure>
-
-![image](assets/clipboard-1540350704118.png)
 
 ## 350:intersection of two arrays
 求两个数组交集.此时数据出现次数就要考虑。
@@ -53,21 +57,17 @@ e.g. nums1=[1,2,2,1],nums2=[2,2]. ans = [2,2]
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350706962.png"></a>
 
 </figure>
-
-![image](assets/clipboard-1540350706962.png)
 
 2. 由于上面问题可看出：不同语言实现机制不一样，写code的时候可能会因为具体机制不同导致可读性变差，所以要把语义都明确的写出来：即，先判断是否存在 / 当值为0时删除元素。这样就可以少考虑语言背景。
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/1532054797(1).png"></a>
 
 </figure>
-
-![image](assets/1532054797(1).png)
 
 **对上述问题，如果数组有序，可不借助这两个结构**
 
@@ -75,21 +75,17 @@ e.g. nums1=[1,2,2,1],nums2=[2,2]. ans = [2,2]
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/1532055228(1).png"></a>
 
 </figure>
-
-![image](assets/1532055228(1).png)
 
 3. 本题目没有数据顺序要求，所以用hash表也可以
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/1532055321(1).png"></a>
 
 </figure>
-
-![image](assets/1532055321(1).png)
 
 ## 查找问题(set,map)题目
 - 242：valid anagram
@@ -125,11 +121,9 @@ e.g. nums1=[1,2,2,1],nums2=[2,2]. ans = [2,2]
 
   <figure>
 
-  <a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+  <a><img src="{{site.url}}/assets/clipboard-1540350726134.png"></a>
 
   </figure>
-
-![image](/assets/clipboard-1540350726134.png)
 
 ## 课后练习
 
@@ -302,21 +296,17 @@ public int threeSumClosest(int[] nums, int target) {
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350743159.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350743159.png)
 
 ### 447.Number of Boomerangs
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350746233.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350746233.png)
 
 - 因为n最多500，所以可以设计n^2的解法。n^3可能就不行了
 - 暴力解：n^3
@@ -324,11 +314,9 @@ public int threeSumClosest(int[] nums, int target) {
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350748449.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350748449.png)
 
 1. 观察到求的是i--j, i--k的距离。其中i是枢纽，所以可以对于每个点i，遍历其余点到i的距离。
 2. 因为求的是距离，所以用距离作为key，到点i的距离为key的个数为val。
@@ -338,11 +326,9 @@ public int threeSumClosest(int[] nums, int target) {
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350750913.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350750913.png)
 
 ## 练习
 
@@ -359,42 +345,34 @@ public int threeSumClosest(int[] nums, int target) {
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350761159.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350761159.png)
 
 - 滑动窗口思路：因为要求下标相差小于k，i到i+k之间有k+1个数。如果在一个长度为k+1的区间内（l--l+k这个区间）能找到两个元素相等，就符合条件。如果没有就右边界右移一位，左边界左移一位，看l+k+1这个位置的元素是否跟l+1 ---- l+k+1 区间中某个元素相等，所以原题就转换为这个思路。
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350764553.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350764553.png)
 
 - 因为原窗口没有相等的元素，所以用set即可。
 - 保证set中元素不超：在每次循环结束的时候判断set是否满了，如果满了就删除掉最左边的元素
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350767346.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350767346.png)
 
 - 时间：o(n) , 空间o(k)
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350769890.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350769890.png)
 
 滑动窗口长度固定
 
@@ -408,11 +386,9 @@ public int threeSumClosest(int[] nums, int target) {
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350780719.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350780719.png)
 
 - 滑动窗口限制角标范围
 - 数值范围：在查找表中找v-t和v+t之间的元素。所以在这个区间查找表上
@@ -425,23 +401,19 @@ public int threeSumClosest(int[] nums, int target) {
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350783887.png"></a>
 
 </figure>
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350787914.png"></a>
 
 </figure>
 
 <figure>
 
-<a><img src="../../../../%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0/blog/penny.github.io/_posts/%7B%7Bsite.url%7D%7D/assets/64b895d39756465d0d2d4c04dab976d2.jpg"></a>
+<a><img src="{{site.url}}/assets/clipboard-1540350790184.png"></a>
 
 </figure>
-
-![image](/assets/clipboard-1540350783887.png)
-![image](/assets/clipboard-1540350787914.png)
-![image](assets/clipboard-1540350790184.png)
 
