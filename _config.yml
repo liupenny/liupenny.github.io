@@ -11,9 +11,8 @@ github_repo: "https://github.com/liupenny/liupenny.github.io.git" # you code rep
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-about-description: "得到的都是侥幸"
+sidebar-avatar: /img/avatar-by.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # SNS settings
@@ -51,7 +50,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                # use Github Flavored Markdown !important
 
 
 
